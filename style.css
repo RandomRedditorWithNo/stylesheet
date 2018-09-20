@@ -421,7 +421,7 @@ html #sr-header-area a.RESShortcutsCurrentSub {
 	margin: 0;
 	padding: 10px;
 	width: 300px;
-	background: url(%%side-bg%%) top/4px #f7f7f7;
+	background: repeating-linear-gradient(45deg, #ececec, #f7f7f7 2px, #ececec 4px) top #f7f7f7;
 	border: 1px solid #cfcfcf;
 	border-top: 0;
 	border-right: 0;
@@ -1468,7 +1468,7 @@ html:not(:lang(en)) .side [href$="#w"] + strong::after {
     display: none;
 }
 .res-nightmode .side {
-	background: url(%%side-bg-dark%%) top/4px #1f1f1f !important;
+	background: repeating-linear-gradient(45deg, #262626, #1f1f1f 2px, #262626 4px) top #1f1f1f !important;
 	border-color: #0f0f0f !important;
 }
 .res-nightmode .titlebox,
